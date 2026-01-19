@@ -6,7 +6,7 @@ import SettingsIcon from "../../images/icon-settings.svg?react";
 
 const Menu = () => {
   return (
-    <div className="border-t border-neutral-200 fixed left-0 bottom-0 w-full py-3 shadow-menu">
+    <div className="border-t border-neutral-200 fixed left-0 bottom-0 w-full py-3 shadow-men z-10 bg-white">
       <ul className="flex justify-evenly">
         <li>
           <HomeIcon />

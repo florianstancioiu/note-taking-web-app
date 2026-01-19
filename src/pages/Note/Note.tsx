@@ -13,14 +13,37 @@ const Note = () => {
         tags={["Dev", "React"]}
         lastEdit="29 Oct 2024"
       />
-      <main className="bg-white px-4 py-3 text-sm">
-        Key performance optimization techniques: 1. Code Splitting - Use
-        React.lazy() for route-based splitting - Implement dynamic imports for
-        heavy components 2. Memoization - useMemo for expensive calculations -
-        useCallback for function props - React.memo for component optimization
-        3. Virtual List Implementation - Use react-window for long lists -
-        Implement infinite scrolling TODO: Benchmark current application and
-        identify bottlenecks
+      <main className="bg-white px-4 py-3 text-sm pb-16">
+        <div>
+          <p>Key performance optimization techniques:</p>
+          <br />
+          <ol className="list-decimal list-inside">
+            <li className="mb-2.5">
+              <span>Code Splitting</span>
+              <ul className="list-disc list-inside pl-4">
+                <li>Use React.lazy() for route-based splitting</li>
+                <li>Implement dynamic imports for heavy components</li>
+              </ul>
+            </li>
+            <li className="mb-2.5">
+              <span>Memoization</span>
+              <ul className="list-disc list-inside pl-4">
+                <li>useMemo for expensive calculations</li>
+                <li>useCallback for function props</li>
+                <li>React.memo for component optimization</li>
+              </ul>
+            </li>
+            <li className="mb-2.5">
+              <span>Virtual List Implementation</span>
+              <ul className="list-disc list-inside pl-4">
+                <li>Use react-window for long lists</li>
+                <li>Implement infinite scrolling</li>
+              </ul>
+            </li>
+          </ol>
+          <br />
+          <p>TODO: Benchmark current application and identify bottlenecks</p>
+        </div>
       </main>
     </>
   );

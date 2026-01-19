@@ -107,5 +107,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 | Date               | Time Spent | Summary                                                             |
 | ------------------ | ---------- | ------------------------------------------------------------------- |
 | January 10th, 2026 | 1 hour     | I created the initial setup of the project and some base components |
+| January 19th, 2026 | 2 hours    | I worked on the mobile version of `/notes/:slug` page               |
 
-_Total time spent working on the project:_ **1 hour**
+_Total time spent working on the project:_ **3 hours**

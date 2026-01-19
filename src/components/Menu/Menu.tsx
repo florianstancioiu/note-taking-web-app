@@ -9,19 +9,19 @@ const Menu = () => {
     <div className="border-t border-neutral-200 fixed left-0 bottom-0 w-full py-3 shadow-men z-10 bg-white">
       <ul className="flex justify-evenly">
         <li>
-          <HomeIcon />
+          <HomeIcon className="cursor-pointer" />
         </li>
         <li>
-          <SearchIcon />
+          <SearchIcon className="cursor-pointer" />
         </li>
         <li>
-          <ArchiveIcon />
+          <ArchiveIcon className="cursor-pointer" />
         </li>
         <li>
-          <TagIcon />
+          <TagIcon className="cursor-pointer" />
         </li>
         <li>
-          <SettingsIcon />
+          <SettingsIcon className="cursor-pointer" />
         </li>
       </ul>
     </div>

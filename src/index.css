@@ -5,4 +5,5 @@
 @theme {
   --font-inter: "Inter", sans-serif;
   --shadow-menu: 0 -4px 6px 0 rgba(240, 240, 240, 0.6);
+  --shadow-create-btn: 0 7px 11px 0 rgba(202, 207, 216, 0.7);
 }

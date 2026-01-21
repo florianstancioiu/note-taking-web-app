@@ -1,5 +1,6 @@
 import PageTitle from "../../components/PageTitle/PageTitle";
 import NoteItem from "../../components/NoteItem/NoteItem";
+import NewNoteBtn from "../../components/NewNoteBtn/NewNoteBtn";
 import data from "../../data.json";
 
 const Notes = () => {
@@ -13,6 +14,7 @@ const Notes = () => {
           <NoteItem key={index} {...note} />
         ))}
       </ul>
+      <NewNoteBtn />
     </>
   );
 };

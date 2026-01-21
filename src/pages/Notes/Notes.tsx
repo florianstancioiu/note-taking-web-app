@@ -1,8 +1,19 @@
+import PageTitle from "../../components/PageTitle/PageTitle";
+import NoteItem from "../../components/NoteItem/NoteItem";
+import data from "../../data.json";
+
 const Notes = () => {
+  const { notes } = data;
+
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <PageTitle title="All Notes" />
+      <ul className="list-none mt-4 px-4 pb-12">
+        {notes.map((note, index) => (
+          <NoteItem key={index} {...note} />
+        ))}
+      </ul>
+    </>
   );
 };
 

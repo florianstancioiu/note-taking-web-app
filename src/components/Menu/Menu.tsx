@@ -5,7 +5,7 @@ import TagIcon from "../../images/icon-tag.svg?react";
 import SettingsIcon from "../../images/icon-settings.svg?react";
 
 // TODO: Implement hover state for each menu item
-// I should use an array to list each menu items, this will make it way easier to style them
+// I should use an array to list every menu item, this will make it way easier to style em
 const Menu = () => {
   return (
     <div className="border-t border-neutral-200 fixed left-0 bottom-0 w-full py-3 shadow-men z-10 bg-white text-neutral-500">

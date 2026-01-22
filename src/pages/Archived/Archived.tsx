@@ -3,7 +3,7 @@ import NoteItem from "../../components/NoteItem/NoteItem";
 import NewNoteBtn from "../../components/NewNoteBtn/NewNoteBtn";
 import data from "../../data.json";
 
-const Notes = () => {
+const Archived = () => {
   const { notes } = data;
 
   return (
@@ -19,4 +19,4 @@ const Notes = () => {
   );
 };
 
-export default Notes;
+export default Archived;

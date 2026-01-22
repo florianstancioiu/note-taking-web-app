@@ -6,12 +6,12 @@ import Sidebar from "../components/Sidebar/Sidebar";
 const AppLayout = () => {
   return (
     <>
-      <div className="lg:hidden min-h-dvh bg-white">
+      <div className="xl:hidden min-h-dvh bg-white">
         <Header />
         <Outlet />
         <Menu />
       </div>
-      <div className="hidden lg:block">
+      <div className="hidden xl:flex">
         <Sidebar />
         <Outlet />
       </div>

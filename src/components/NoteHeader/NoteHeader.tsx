@@ -9,7 +9,7 @@ export type NoteHeaderProps = {
 
 const NoteHeader = ({ title, tags, lastEdit }: NoteHeaderProps) => {
   return (
-    <div className="bg-white px-4">
+    <div className="bg-white px-4 xl:px-6">
       <div className="border-b border-neutral-200 pb-3">
         <h1 className="mb-4 pt-3 font-bold text-neutral-950 text-2xl">
           {title}
